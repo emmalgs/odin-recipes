@@ -1,0 +1,37 @@
+.title {
+    background-color: rgb(244, 11, 11);
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 80px;
+    text-align: right;
+}
+
+p {
+    background-color: rgba(184, 135, 11, 0.163);
+    color: black;
+    font-family: monospace;
+    font-size: 14px;
+    text-align: left;
+}
+
+.list {
+    background-color: rgb(44, 227, 41);
+    color:rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 14px;
+    text-align: left;
+}
+
+.subtitle {
+    background-color: aqua;
+    color: brown;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
