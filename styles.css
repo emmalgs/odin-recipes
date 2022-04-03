@@ -1,9 +1,30 @@
-.title {
+* {
+    background-color: gainsboro;
+    margin: 0px;
+}
+
+img {
+    padding: 0em;
+    border: 1em dotted blue;
+    margin: -3emem;
+    max-width: 65%;
+    height: auto;
+    border-radius: 8em;
+
+
+}
+h1 {
     background-color: rgb(244, 11, 11);
     color: rgb(0, 0, 0);
     font-family: monospace;
     font-size: 34px;
     text-align: right;
+    padding: 10px;
+    border: 30px;
+    margin: 40px;
+    height: auto;
+    width: 300px;
+
 }
 
 p {
@@ -12,26 +33,49 @@ p {
     font-family: monospace;
     font-size: 14px;
     text-align: justify;
+    box-sizing: border-box;
 }
 
-.list {
+ul,
+ol {
     background-color: rgb(227, 41, 180);
     color:rgb(34, 65, 66);
     font-family: monospace;
     font-size: 14px;
     text-align: left;
+    padding: 20px;
+    border: 20px;
+    margin: 10px;
+    height: auto;
+    width: 20px;
+}
+li {
+    background-color: coral;
+    margin: .8em;
+    padding: .5em;
+    border: .5em;
+    height: auto;
+    width: 500px;
 }
 
-.subtitle {
+h4 {
     background-color: aqua;
     color: brown;
     font-family: monospace;
     font-size: 18px;
     text-align: left;
-}
-
-img {
-    max-width: 100%;
+    padding: .5em;
+    margin: .8em;
     height: auto;
-
+    width: 100px;
+}
+p {
+    background-color: bisque;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: justify;
+    padding: .5em;
+    margin: .5em;
+    border: 1em;
+    border-color: cornsilk;
 }
